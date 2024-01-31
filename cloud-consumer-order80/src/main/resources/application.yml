@@ -1,0 +1,14 @@
+# 访问应用的默认端口8080
+server:
+    port: 80
+
+spring:
+    application:
+        name: cloud-order-service
+
+eureka:
+    client:
+        register-with-eureka: true  # 默认true
+        fetch-registry: true  # 默认true
+        service-url:
+            defaultZone: http://localhost:7011/eureka/
