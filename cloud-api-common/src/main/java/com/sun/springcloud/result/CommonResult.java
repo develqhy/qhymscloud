@@ -5,7 +5,8 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 /**
- * @author shuo
+ * @author qhy
+ * @description JSON封装体
  */
 @Data
 @AllArgsConstructor

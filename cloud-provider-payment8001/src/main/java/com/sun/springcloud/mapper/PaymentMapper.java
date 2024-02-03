@@ -1,7 +1,6 @@
 package com.sun.springcloud.mapper;
 
 import com.sun.springcloud.entity.Payment;
-import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Param;
 
 /**

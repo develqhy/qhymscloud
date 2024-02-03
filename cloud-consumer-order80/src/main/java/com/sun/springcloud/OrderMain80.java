@@ -3,10 +3,10 @@ package com.sun.springcloud;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
+//import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 /**
- * @author shuo
+ * @author qhy
  * @date
  */
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
