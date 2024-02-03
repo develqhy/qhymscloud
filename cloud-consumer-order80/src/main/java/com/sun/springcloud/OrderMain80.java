@@ -10,7 +10,7 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
  * @date
  */
 @SpringBootApplication(exclude= {DataSourceAutoConfiguration.class})
-@EnableEurekaClient
+//@EnableEurekaClient
 public class OrderMain80 {
 
     public static void main(String[] args) {
