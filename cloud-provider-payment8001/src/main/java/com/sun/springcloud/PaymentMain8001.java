@@ -8,6 +8,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 @MapperScan(basePackages = "com.sun.springcloud.mapper")
 public class PaymentMain8001 {
     public static void main(String[] args) {
+//        System.setProperty("spring.devtools.restart.enabled","false");
         SpringApplication.run(PaymentMain8001.class,args);
     }
 }
