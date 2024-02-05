@@ -17,6 +17,10 @@
         <module>cloud-consumer-zkorder80</module>
         <module>cloud-provider-consulpayment8006</module>
         <module>cloud-consumer-consulorder80</module>
+        <module>cloudalibaba-provider-payment9001</module>
+        <module>cloudalibaba-provider-payment9002</module>
+        <module>cloudalibaba-consumer-nacos-order83</module>
+        <module>cloudalibaba-nacos-config-client3377</module>
     </modules>
 
     <!--统一管理jar包版本-->
